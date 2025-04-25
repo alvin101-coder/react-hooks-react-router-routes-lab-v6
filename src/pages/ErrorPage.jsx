@@ -1,11 +1,10 @@
-import React from 'react'
+import NavBar from "../components/NavBar";
 
-function ErrorPage() {
+export default function ErrorPage() {
   return (
-    <div>
-        <h1>Oops! Looks like something went wrong.</h1>
-    </div>
-  )
+    <>
+      <NavBar />
+      <h1>Oops! Looks like something went wrong.</h1>
+    </>
+  );
 }
-
-export default ErrorPage
